@@ -2,7 +2,8 @@ from time_controller import show_time
 
 
 def main():
-    show_time()
+    time = show_time()
+    print(time)
 
 
 if __name__ == '__main__':
